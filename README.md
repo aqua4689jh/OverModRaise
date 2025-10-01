@@ -53,13 +53,4 @@ plain_all_together_bootstrap_test_S2C_first_adaptive_S2C<15, 50, 30, 7, 7, 10, 2
 
 ## Acknowledgement
 
-This implementation builds upon the [EvalRound repository](https://github.com/CryptoLabInc/EvalRound) 【evalroundgithub】.  
-
-```bibtex
-@misc{evalroundgithub,
-  author       = {CryptoLabInc},
-  title        = {EvalRound: GitHub repository},
-  year         = {2024},
-  url          = {https://github.com/CryptoLabInc/EvalRound},
-  note         = {Accessed: 2024-10-23}
-}
+This implementation builds upon the [EvalRound repository](https://github.com/CryptoLabInc/EvalRound).
