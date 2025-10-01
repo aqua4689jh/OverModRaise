@@ -14,17 +14,19 @@ run
 ulimit -s unlimited
 ```
 
-## Reproducing the throughput results in Table 5 of the paper
+## Reproducing the throughput results in Table 4 of the paper
 
 ```bash
-# execute the following six functions in proposal_main.cpp one at a time
-# 1) logN = 15
-evalroundplus_test_S2C_first<15, 28, 30, 7, 7, 49>();
-erpluspar_12_S2C_first<15, 29, 30, 7, 7, 10, 20, 21, 49>();
-erpluspar_all_together_bootstrap_test_S2C_first<15, 29, 30, 7, 7, 10, 20, 21, 49>();
+# execute the following eight functions in proposal_main.cpp one at a time
+# logN = 16
+evalroundplus_test_S2C_first_adaptive_S2C<16, 37, 42, 4, 5, 58>();
+erpluspar_12_S2C_first_adaptive_S2C<16, 38, 42, 4, 5, 16, 26, 30, 58>();
+erpluspar_23_S2C_first_adaptive_S2C<16, 38, 42, 4, 5, 16, 26, 30, 58>();
+erpluspar_all_together_bootstrap_test_S2C_first_adaptive_S2C<16, 38, 42, 4, 5, 16, 26, 30, 58>();
 
-# 2) logN = 16
-evalroundplus_test_S2C_first<16, 37, 42, 4, 5, 58>();
-erpluspar_12_S2C_first<16, 38, 42, 4, 5, 16, 26, 30, 58>();
-erpluspar_all_together_bootstrap_test_S2C_first<16, 38, 42, 4, 5, 16, 26, 30, 58>();
+# logN = 15
+evalroundplus_test_S2C_first_adaptive_S2C<15, 27, 30, 7, 7, 49>();
+erpluspar_12_S2C_first_adaptive_S2C<15, 28, 30, 7, 7, 10, 20, 23, 49>();
+erpluspar_23_S2C_first_adaptive_S2C<15, 28, 30, 7, 7, 10, 20, 23, 49>();
+erpluspar_all_together_bootstrap_test_S2C_first_adaptive_S2C<15, 28, 30, 7, 7, 10, 20, 23, 49>();```
 ```
