@@ -3,6 +3,8 @@
 Github repository for:
 * Jung Hee Cheon, Jihwan Kim, and Yongdong Yeo. "OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping." **Communications in Cryptology**
 
+This library is built upon [EvalRound GitHub repository](https://github.com/CryptoLabInc/EvalRound) and [EvalRound paper](https://eprint.iacr.org/2022/1256).
+
 ## Build and Run Instructions
 
 ```bash
@@ -51,6 +53,3 @@ plain_23_S2C_first_adaptive_S2C<15, 50, 30, 7, 7, 10, 20, 8, 49>();
 plain_all_together_bootstrap_test_S2C_first_adaptive_S2C<15, 50, 30, 7, 7, 10, 20, 8, 49>();
 ```
 
-## Acknowledgement
-
-This implementation builds upon the [EvalRound repository](https://github.com/CryptoLabInc/EvalRound).
