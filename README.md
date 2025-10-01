@@ -1,5 +1,8 @@
 # OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping
 
+Github repository for:
+* Jung Hee Cheon, Jihwan Kim, and Yongdong Yeo. "OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping." **Communications in Cryptology**
+
 ## Build and Run Instructions
 
 ```bash
