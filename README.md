@@ -1,4 +1,4 @@
-# Anonymous-OverModRaise
+# OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping
 
 ## Build and Run Instructions
 
