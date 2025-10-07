@@ -1,7 +1,7 @@
 # OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping
 
 Github repository for:
-* Jihwan Kim, Jung Hee Cheon, and Yongdong Yeo. "OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping." **Communications in Cryptology.** https://cic.iacr.org/p/2/3/32
+* Jihwan Kim, Jung Hee Cheon, and Yongdong Yeo. "OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping." **IACR Communications in Cryptology, vol. 2, no. 3.** https://cic.iacr.org/p/2/3/32
 
 This library is built upon [EvalRound GitHub repository](https://github.com/CryptoLabInc/EvalRound) and [EvalRound paper](https://eprint.iacr.org/2022/1256).
 
